@@ -6,6 +6,7 @@ body {
   background-color: rgb(197, 200, 201);
 }
 
+/*defines the margin, font color, font weight, and line-height of the headers*/
 h1, 
 h2, 
 h3, 
@@ -63,22 +64,24 @@ footer {
   font-size: 25px;
 }
 
+/*take the bullet points away for the list*/
 .header nav ul {
   list-style-type: none;
 }
 
+/*defines the display type, margin, and text color of the nav links list*/
 .header nav ul li {
 display: inline-block;
 margin-left: 40px;
-text-decoration: none;
-color: rgb(234, 142, 158);
 }
 
+/*defines the font color and no decorations for the text for the nav links/list*/
 a {
   color: rgb(234, 142, 158);
   text-decoration: none;
-}
+} 
 
+/*makes the about me and work section flex into a columb and defines margins and padding*/
 .article {
   display: flex;
   flex-direction: column;
@@ -86,7 +89,9 @@ a {
   min-height: 100%;
   padding: 20px;
   margin: 0px 30px 0px 30px;
-  transition: all 0.5s ease-in-out;
+
+  /*
+  transition: all 0.5s ease-in-out;*/
 }
 
 /*Defines the size of my photo and the curves edges*/
@@ -111,7 +116,7 @@ a {
   margin-right: 200px;
 }
 
-
+/*defines the flex-boxes and wraps the boxes*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -119,31 +124,27 @@ a {
   
 }
 
+/*centers the content*/
 .justify-center {
   justify-content: center;
 }
 
-
+/*next two make it so that the first box is twice the size of the rest of the boxes and so the other boxes are the same size*/
 .card-column:not(first-child) {
   flex: 1;
 }
 
-.card-column:nth-child(1) {
-  width: 100%;
-} 
+.card-column:first-child {
+  flex: 1 0 100%;
+}
 
+/*defines padding in between the boxes*/
 .card-column {
   padding: 15px;
-  transition: flex-basis 500ms linear;
   margin-bottom: 0 20px;
 }
 
-.card-column:first-child {
-  flex: 1 0 100%;
-  margin-bottom: 20px;
-}
-
-
+/*defines the layout, spacing, padding, outlines and special effect of the hover for the boxes*/
 .code-card {
   display: flex;
   flex-direction: column;
@@ -151,18 +152,19 @@ a {
   min-height: 100%;
   padding: 20px;
   color: black;
-
   outline: 2px solid white;
   outline-offset: -2px;
   transition: all 0.5s ease-in-out;
 }
 
+/*defines the size of the images inside of the boxes*/
 .html img {
   border-radius: 0px;
   width: 100%;
   height: 100%;
 }
 
+/*defines the position, margins, font color, border and transition effect of the headers inside of the boxes*/
 .code-card .card-header {
   position: relative;
   margin: 2px 1px 2px 1px;
@@ -172,35 +174,30 @@ a {
   transition: all 0.5s ease-in-out; 
 }
 
+/*defines the color and of the special effect when you hover over the boxes*/
 .code-card:hover,
 .code-card:hover .card-header {
   box-shadow: inset 0px 0px 8px white, 0 0 15px white;
 }
 
-.code-card .code-block {
-  flex-grow: 1;
-}
 
-
+/*changes size of the flex boxes and sections at 768px-991px*/
 @media screen and (min-width: 768px) {
   .card-column {
     flex: 0 0 50%;
     max-width: 50%;
   }
-/*
-  .card-column:last-child {
-      flex-grow: 1;
-    } */
   }
 
+  /*changes the size of the flex boxes and sections at 992px and larger*/
   @media screen and (min-width: 992px) {
   .card-column {
       flex: 0 0 33.33%;
       max-width: 33.33%;
     } 
-  }
+  } 
 
-
+/*defines the width, padding, font family and font size of the footer*/
 .footer {
   text-align: center;
   width: 100%;
@@ -210,16 +207,19 @@ a {
   font-size: 25px
 }
 
+/*defines the padding, font family, and font size of the bottom links on the footer*/
 .footer nav {
   padding-top: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
+/*takes the bullets away on the list in the footer*/
 .footer nav ul {
   list-style-type: none;
 }
 
+/*defines the display, text placement, and padding of the links in the footer*/
 .footer nav ul li {
 display: inline-block;
 text-decoration: none;
@@ -227,6 +227,7 @@ text-align: center;
 padding: 10px;
 }
 
+/*defines the width, display type, margins, padding and font family of the about me section*/
 .about {
   width: 100%;
   display: inline-block;
@@ -239,6 +240,7 @@ padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*defines the width, display type, center text, borders, padding, and margin of the work section*/
 .work {
   width: 100%;
   text-align: center;
