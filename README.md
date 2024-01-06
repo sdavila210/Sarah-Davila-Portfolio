@@ -11,7 +11,7 @@ N/A
 
 ## Usage
 
-To use this webpage, you can click the navigation links in the header, and you can review the information in each section. About me takes you to the section describing a little bit about myself. Work will take you to a list of my current projects. The largest project is has a working link which will direct you to the github repository for that project. The other 4 projects are just placeholder images for now. Finally, contact me will take you to the footer where there are links that provide information with the best ways to contact me.
+To use this webpage, you can click the navigation links in the header, and you can review the information in each section. About me takes you to the section describing a little bit about myself. Work will take you to a list of my current projects. The largest project has a working link which will direct you to the github repository for that project. The other 4 projects are just placeholder images for now. Finally, contact me will take you to the footer where there are links that provide information with the best ways to contact me.
 
 ## Assets
 
@@ -23,7 +23,7 @@ Here is the link to the deployed application:
 
 ## Credits
 
-I used the codes from module one challenge and module two mini-project as inspiration and examples. I also used developer.mozilla.org to assist with the coding. (especially for flexbox)
+I used the codes from module one challenge and module two mini-project as inspiration and examples. I also used developer.mozilla.org to assist with the coding. (especially for flexbox). Images used in the webpage were taken from canva.com with a paid subscription.
 
 ## License
 
