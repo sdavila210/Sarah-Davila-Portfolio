@@ -20,6 +20,7 @@ The following image demonstrates the web application's appearance:
 ![Horiseon Social Solution Services web application appearance](images/screenshot-portfolio.png)
 
 Here is the link to the deployed application:
+https://sdavila210.github.io/Sarah-Davila-Portfolio/
 
 ## Credits
 
